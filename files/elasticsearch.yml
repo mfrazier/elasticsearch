@@ -3,5 +3,6 @@ path:
   logs: /data/log
   plugins: /elasticsearch/plugins
   work: /data/work
+network.host: HostPrivateIpAddress
 http.cors.enabled: true
 http.cors.allow-origin: /https?:\/\/{{repl ConfigOption "hostname" }}(:[0-9]+)?/
